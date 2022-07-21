@@ -1,6 +1,6 @@
 body {
     font-family: 'Josefin Sans';
-    background-color: #eff5f6;
+    background-color: #e3eaeb;
   
   }
   
@@ -50,6 +50,7 @@ body {
   .detail-image {
     width: 729px;
     height: 742px;
+    
   }
   
   .hero-banner-img {
@@ -57,15 +58,17 @@ body {
     right: 40px;
     top: 0px;
     width: 700px;
-    height: 900px;
+    height: 800px;
     margin-top: -330px;
+    border-radius: 100%;
+    border-left: 20px solid orange;
   
   }
   
   .exercise-card {
     width: 480px;
     height: 445px;
-    background: #fff;
+    background: #0D98BA;
     border-bottom-left-radius: 20px;
     text-decoration: none;
     display: flex;
@@ -106,7 +109,10 @@ body {
   .footer{
     width: 100%;
     margin: 20px auto;
-    background-color: #0D98BA;
+  
+  }
+  .icons{
+    color: #0D98BA;
   }
   @media screen and (max-width:1200px) {
     .detail-image {
