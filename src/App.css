@@ -137,10 +137,11 @@ body {
   background-color: #0f567f !important;
   color: aliceblue !important;
 }
-.box-links {
+.box-links{
   width: 100%;
-  background-color: #eee7e8;
+  background-color: rgb(243, 239, 233);
 }
+
 .exercises {
   background-color: #0f567f;
   width: 100vw;
@@ -199,7 +200,7 @@ body {
   background-color: rgb(4, 11, 17) !important;
 }
 
-.target2{
+.target2 {
   color: #0f567f !important;
   background: FFA500;
   font-size: 14px;
@@ -209,6 +210,49 @@ body {
   width: 50%;
   background-color: rgb(189, 192, 194) !important;
 }
+
+.detail {
+  display: flex !important;
+  justify-content: space-between !important;
+  margin: 2% auto;
+  
+}
+
+.title {
+  font-size: 35px !important;
+  text-transform: capitalize;
+  font-weight: 800 !important;
+}
+.detail-info{
+  padding: 15px !important;
+  
+}
+.gif{
+  border-top-right-radius: 40% !important;
+  border: 20px solid #0e0e0f;
+}
+.text {
+  font-family: Georgia, serif !important;
+  font-size: 20px !important;
+  
+}
+.detail-btn {
+  background: #0d98ba !important;
+  border-radius: 50% !important;
+  width: 100px !important;
+  height: 100px !important;
+  margin: 5px !important;
+}
+.btn-name {
+  text-transform: capitalize !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+.similar-exercises {
+  background-color: #0f567f;
+  padding: 15px;
+}
+
 .footer {
   width: 100%;
   margin: 20px auto;
@@ -248,10 +292,38 @@ body {
   .exercise-card {
     width: 400px;
   }
+  .detail {
+    display: block !important;
+    margin: 2% auto;
+  }
+  .detail-image{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .exercise-card {
     width: 280px;
+  }
+  .detail {
+    display: block !important;
+    
+    margin: 2% auto;
+  }
+  .detail-image{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .exercise-card {
+    width: 280px;
+  }
+  .detail {
+    display: block !important;
+    margin: 2% auto;
+  }
+  .detail-image{
+    width: 100%;
   }
 }

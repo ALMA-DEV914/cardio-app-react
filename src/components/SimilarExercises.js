@@ -5,6 +5,7 @@ import HorizontalScrollbar from './HorizontalScrollbar';
 import Loader from './Loader';
 
 const SimilarExercises = ({ targetMuscleExercises, equipmentExercises }) => (
+  <div  className='similar-exercises'>
   <Container>
   <Box sx={{ mt: { lg: '100px', xs: '0px' } }}>
     <Typography sx={{ fontSize: { lg: '44px', xs: '25px' }, ml: '20px' }} fontWeight={700} color="#000" mb="33px">
@@ -21,6 +22,7 @@ const SimilarExercises = ({ targetMuscleExercises, equipmentExercises }) => (
     </Stack>
   </Box>
   </Container>
+  </div>
 );
 
 export default SimilarExercises;
