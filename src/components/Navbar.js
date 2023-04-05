@@ -1,26 +1,36 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Stack } from '@mui/material';
-import Logo from "../assets/images/logo.jpg"
+import React from "react";
+import { Link } from "react-router-dom";
+import { Stack, Container } from "@mui/material";
+import Logo from "../assets/images/logo.jpg";
 
 const Navbar = () => {
   return (
-    <Stack direction="row" justifyContent="space-around" sx={{ gap: { sm: '123px', xs: '40px' }, mt: { sm: '32px', xs: '20px' }, justifyContent: 'none' }} px="20px">
-    <Link to="/">
-      <img src={Logo} alt="logo" style={{ width: '120px', height: '120px', margin: '0px 10px' }} />
-    </Link>
-    <Stack
-      direction="row"
-      gap="40px"
-      fontFamily="Alegreya"
-      fontSize="24px"
-      alignItems="flex-end"
-    >
-      <Link to="/" style={{ textDecoration: 'none', color: '#3A1212'}}>Home</Link>
-      <a href="#exercises" style={{ textDecoration: 'none', color: '#3A1212' }}>Exercises</a>
-    </Stack>
-  </Stack>
-  )
-}
+    <div className="container">
+      <Container className="nav">
+        <Link to="/">
+          <img src={Logo} alt="logo" className="logo" />
+        </Link>
 
-export default Navbar
+        <Stack
+          direction="row"
+          gap="40px"
+          fontFamily="Alegreya"
+          fontSize="24px"
+          alignItems="flex-end"
+        >
+          <Link to="/" style={{ textDecoration: "none", color: "#fff" }}>
+            Home
+          </Link>
+          <a
+            href="#exercises"
+            style={{ textDecoration: "none", color: "#fff" }}
+          >
+            Exercises
+          </a>
+        </Stack>
+      </Container>
+    </div>
+  );
+};
+
+export default Navbar;
