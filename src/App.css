@@ -303,9 +303,23 @@ body {
   .detail-image{
     width: 100%;
   }
+  .text-shadow {
+    font-family: system-ui, sans-serif;
+    font-size: 100px;
+    max-width: 800px;
+    text-align: center;
+  }
+  .search-input {
+    height: 76px;
+    font-weight: 700;
+    border: none;
+    width: 75%;
+    background-color: fff;
+    border-radius: 40px;
+  }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 414px) {
   .exercise-card {
     width: 280px;
   }
@@ -316,6 +330,24 @@ body {
   }
   .detail-image{
     width: 100%;
+  }
+  .text-shadow {
+    font-family: system-ui, sans-serif;
+    font-size: 90px;
+    max-width: 800px;
+    text-align: center;
+  }
+  .logo {
+    width: 80px;
+    border-radius: 100%;
+  }
+  .search-input {
+    height: 76px;
+    font-weight: 700;
+    border: none;
+    width: 70%;
+    background-color: fff;
+    border-radius: 40px;
   }
 }
 
@@ -329,5 +361,54 @@ body {
   }
   .detail-image{
     width: 100%;
+  }
+  .text-shadow {
+    font-family: system-ui, sans-serif;
+    font-size: 90px;
+    max-width: 800px;
+    text-align: center;
+  }
+  .logo {
+    width: 80px;
+    border-radius: 100%;
+  }
+  .search-input {
+    height: 76px;
+    font-weight: 700;
+    border: none;
+    width: 70%;
+    background-color: fff;
+    border-radius: 40px;
+  }
+  
+}
+@media screen and (max-width: 360px) {
+  .exercise-card {
+    width: 280px;
+  }
+  .detail {
+    display: block !important;
+    margin: 2% auto;
+  }
+  .detail-image{
+    width: 100%;
+  }
+  .text-shadow {
+    font-family: system-ui, sans-serif;
+    font-size: 80px;
+    max-width: 800px;
+    text-align: center;
+  }
+  .logo {
+    width: 80px;
+    border-radius: 100%;
+  }
+  .search-input {
+    height: 76px;
+    font-weight: 700;
+    border: none;
+    width: 65%;
+    background-color: fff;
+    border-radius: 40px;
   }
 }
